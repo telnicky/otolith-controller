@@ -28,7 +28,6 @@ typedef struct {
 -(void)updateWithCount: (int)newCount;
 static NSString *pathToDocuments(void);
 -(void) uploadToServer;
--(void) pushStep:(StepData*) data;
 -(void)updateWithStepStruct: (StepData*)newCount;
 
 @end

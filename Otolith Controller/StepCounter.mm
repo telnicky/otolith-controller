@@ -51,6 +51,7 @@
         NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init];
         [DateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss z"];
         NSLog(@"Received %d: steps starting at: %@  ending at: %@", stepObjTemp.steps,[DateFormatter stringFromDate:stepObjTemp.startDate],[DateFormatter stringFromDate:stepObjTemp.endDate]);
+        [self uploadToServer];
     }
         
 }
@@ -67,9 +68,6 @@ static NSString *pathToDocuments(void) {
     if(![self.stepArray writeToFile:filePath atomically:YES]) {
         NSLog(@"ERROR Saving Array!");
     }
-}
--(void) pushStep:(StepData*) data {
-    
 }
 
 // 32.768 kHz. 12 bit prescaler

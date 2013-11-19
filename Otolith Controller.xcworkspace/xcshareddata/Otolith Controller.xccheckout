@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA5B1BE6-563A-4587-8018-01BFF7BA11E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Otolith Controller</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6A0BDE5E-6EA8-44D5-B41C-6182DAB5B07A</key>
+		<string>ssh://github.com/telnicky/otolith-controller.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Otolith Controller.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6A0BDE5E-6EA8-44D5-B41C-6182DAB5B07A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/telnicky/otolith-controller.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6A0BDE5E-6EA8-44D5-B41C-6182DAB5B07A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6A0BDE5E-6EA8-44D5-B41C-6182DAB5B07A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>otolith-controller</string>
+		</dict>
+	</array>
+</dict>
+</plist>
