@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Otolith Controller/StepCounter.mm"
+            filePath = "Otolith Controller/Otolith.mm"
             timestampString = "406520855.640456"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"
             endingLineNumber = "71"
-            landmarkName = "-uploadAllToServer"
+            landmarkName = "-uploadToServer"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

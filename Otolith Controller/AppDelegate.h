@@ -6,7 +6,7 @@
 #import <Cocoa/Cocoa.h>
 #import <IOBluetooth/IOBluetooth.h>
 
-@class StepCounter;
+@class Otolith;
 @class UserAlarm;
 
 @interface AppDelegate : NSObject <NSApplicationDelegate,CBCentralManagerDelegate, CBPeripheralDelegate>
@@ -36,7 +36,7 @@
 @property (assign) IBOutlet NSTextField *totalStepCountField;
 
 @property (retain) NSMutableArray *devices;
-@property (strong) StepCounter *stepCounter;
+@property (strong) Otolith *otolith;
 @property (strong) UserAlarm *userAlarm;
 
 

@@ -9,7 +9,7 @@
 // mac wibbels and trais elnicky
 
 #import "AppDelegate.h"
-#import "StepCounter.h"
+#import "Otolith.h"
 #import "UserAlarm.h"
 
 @implementation AppDelegate
@@ -30,8 +30,8 @@
     
     self.devices = [NSMutableArray array];
     
-    StepCounter *sc = [[StepCounter alloc] init];
-    [self setStepCounter:sc];
+    Otolith *sc = [[Otolith alloc] init];
+    [self setOtolith:sc];
     
     UserAlarm *ua = [[UserAlarm alloc] init];
     [self setUserAlarm:ua];
@@ -67,7 +67,7 @@
     if(peripheral)
     {
         [manager cancelPeripheralConnection:peripheral];
-        [self.stepCounter uploadToServer];
+        [self.otolith uploadToServer];
     }
 }
 
@@ -126,7 +126,7 @@
 }
 
 - (IBAction)uploadButtonPressed:(id)sender {
-            [self.stepCounter uploadToServer];
+            [self.otolith uploadToServer];
 }
 #pragma mark - Connect Button
 
@@ -222,7 +222,7 @@
 {
     NSLog(@"resetCountButtonPressed");
     
-    [self.stepCounter resetStepCount];
+    [self.otolith resetStepCount];
     [self updateUserInterface];
 }
 
@@ -245,7 +245,7 @@
     StepData *stepDataNew = (StepData *) [data bytes];
     NSLog(@"totalBytesReceived: %l", (unsigned long)[data length]);
     NSLog(@"steps: %d starttime: %d endtime: %d Status:%x", stepDataNew->steps, stepDataNew->startTime, stepDataNew->endTime, stepDataNew->status);
-    [self.stepCounter updateWithStepStruct:stepDataNew];
+    [self.otolith updateWithStepStruct:stepDataNew];
     [self updateUserInterface];
     
     //NSMutableString *msg = [NSMutableString stringWithFormat:@"Received: %d\n", stepCount];
@@ -255,8 +255,8 @@
 
 - (void)updateUserInterface
 {
-    [self.stepCountField setIntValue:[self.stepCounter latestStepCount]];
-    [self.totalStepCountField setIntValue:[self.stepCounter totalStepCount]];
+    [self.stepCountField setIntValue:[self.otolith latestStepCount]];
+    [self.totalStepCountField setIntValue:[self.otolith totalStepCount]];
 }
 
 

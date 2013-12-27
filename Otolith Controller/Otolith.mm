@@ -2,16 +2,16 @@
 //  StepCounter.m
 //  Otolith Controller
 //
-//  Created by Kevin Avery on 4/28/13.
+//  Created by Travis Elnicky and Mac Wibbels on 4/28/13.
 //  Copyright (c) 2013 SAHA. All rights reserved.
 //
 
-#import "StepCounter.h"
+#import "Otolith.h"
 #import "ActiveRemote.h"
 
 
 
-@implementation StepCounter
+@implementation Otolith
 
 -(id)init
 {

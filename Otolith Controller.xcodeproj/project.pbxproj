@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A28DB6F172DDD9E00D6AB9B /* StepCounter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A28DB6E172DDD9E00D6AB9B /* StepCounter.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0A28DB6F172DDD9E00D6AB9B /* Otolith.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A28DB6E172DDD9E00D6AB9B /* Otolith.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0A28DB72172DEAAE00D6AB9B /* UserAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A28DB71172DEAAE00D6AB9B /* UserAlarm.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0ABCE64717284B2900014317 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABCE64617284B2900014317 /* Cocoa.framework */; };
 		0ABCE65117284B2900014317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0ABCE64F17284B2900014317 /* InfoPlist.strings */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A28DB6D172DDD9E00D6AB9B /* StepCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepCounter.h; sourceTree = "<group>"; };
-		0A28DB6E172DDD9E00D6AB9B /* StepCounter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StepCounter.mm; sourceTree = "<group>"; };
+		0A28DB6D172DDD9E00D6AB9B /* Otolith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Otolith.h; sourceTree = "<group>"; };
+		0A28DB6E172DDD9E00D6AB9B /* Otolith.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Otolith.mm; sourceTree = "<group>"; };
 		0A28DB70172DEAAE00D6AB9B /* UserAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAlarm.h; sourceTree = "<group>"; };
 		0A28DB71172DEAAE00D6AB9B /* UserAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAlarm.m; sourceTree = "<group>"; };
 		0ABCE64317284B2900014317 /* Otolith Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Otolith Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,8 +105,8 @@
 				0ABCE65917284B2900014317 /* AppDelegate.m */,
 				0ABCE65B17284B2900014317 /* MainMenu.xib */,
 				0ABCE64D17284B2900014317 /* Supporting Files */,
-				0A28DB6D172DDD9E00D6AB9B /* StepCounter.h */,
-				0A28DB6E172DDD9E00D6AB9B /* StepCounter.mm */,
+				0A28DB6D172DDD9E00D6AB9B /* Otolith.h */,
+				0A28DB6E172DDD9E00D6AB9B /* Otolith.mm */,
 				0A28DB70172DEAAE00D6AB9B /* UserAlarm.h */,
 				0A28DB71172DEAAE00D6AB9B /* UserAlarm.m */,
 				67AA0C0D17C6A0BF00636BF7 /* ActiveRemote.h */,
@@ -228,7 +228,7 @@
 			files = (
 				0ABCE65317284B2900014317 /* main.m in Sources */,
 				0ABCE65A17284B2900014317 /* AppDelegate.m in Sources */,
-				0A28DB6F172DDD9E00D6AB9B /* StepCounter.mm in Sources */,
+				0A28DB6F172DDD9E00D6AB9B /* Otolith.mm in Sources */,
 				0A28DB72172DEAAE00D6AB9B /* UserAlarm.m in Sources */,
 				67AA0C0F17C6A0BF00636BF7 /* ActiveRemote.m in Sources */,
 			);

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface StepCounter : NSObject
+@interface Otolith : NSObject
 
 typedef struct {
     uint32_t startTime;
